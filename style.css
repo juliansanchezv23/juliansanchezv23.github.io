@@ -1,0 +1,160 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+   
+
+
+* {
+    margin: 0em; 
+    padding: 0em; 
+    box-sizing: border-box; 
+    text-decoration: none; 
+    font-family: 'Lexend Deca', sans-serif;
+     background-color: rgb(255, 255, 255);
+     font-size: 16px;
+    
+}
+body{
+    font-size: 10px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+/*header*/
+header {
+    width: 100%;
+}
+.contenido {
+    display: flex;
+    width: 70%;
+    margin:auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    justify-content:space-between;
+    align-items: center;
+}
+.bloque{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px
+}
+.logo{
+    width: 25%;
+}
+.mi_portafolio{
+    font-size: 20px;
+}
+.menu{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;   
+}
+.menu ul li{
+    display:inline;
+    margin: .7em;
+    font-size: 2em;
+}
+.menu ul li a {
+    color: rgb(37, 177, 201);
+}
+.menu ul li a:hover {
+    border-bottom: 4px rgb(103, 30, 172) solid;
+    color:rgb(103, 30, 172) ;
+
+}
+
+
+
+/*bienvenidos*/
+
+.bienvenido {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    gap: 80px;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.galeria{
+    width: 30%; 
+}
+
+
+
+
+/*proyectos*/
+.galerias{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.proyectos { 
+    display: flex;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.analogo{
+    width: 25%; 
+}
+.digital{
+    width: 25%; 
+}
+.marcadores{
+    width: 25%; 
+}
+
+
+
+
+/*footer*/
+
+.pie {
+    text-align: center;
+    padding:  30px 30px;
+    text-decoration: none;
+    line-height: 25px;
+    font-size: 16px;
+}
+.pie h1 {
+    margin-bottom: 15px;
+}
+.pie a { 
+color: rgb(0, 0, 0);
+
+}
+.pie a:hover { border-bottom: 4px rgb(103, 30, 172) solid;
+    color:rgb(103, 30, 172) ;
+
+}
+ul { 
+    list-style-type: none;
+
+}
+   
+
+
+ h1 { font-size: 20px;
+    color: rgb(103, 30, 172);
+}
+
+
+
